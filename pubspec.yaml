@@ -1,0 +1,84 @@
+name: ceas
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.2.1
+  url_launcher: ^6.2.5
+  animate_do: ^3.0.0
+  video_player: ^2.7.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: EB Garamond
+      fonts:
+        - asset: assets/fonts/EBGaramond-Regular.ttf
+        - asset: assets/fonts/EBGaramond-Bold.ttf
+          weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Italic.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 700
+    - family: Times New Roman Regular
+      fonts:
+        - asset: assets/fonts/Times New Roman Regular.ttf
+          weight: 700
+
+  assets:
+    - assets/ceas_logo.png
+    - assets/ceaslogo1.png
+    - assets/ceaslogo2.png
+    - assets/ceaslogo4.png
+    - assets/ceaslogo1.mp4
+    - assets/fonts/
+    - assets/images/advisory/
+    - assets/images/director.png
+    - assets/images/certificate_course_banner.png
+    - assets/images/affiliates/
+    - assets/images/china/
+    - assets/images/lectures/
+    - assets/images/workshops/
+    - assets/images/conferences/
+    - assets/images/debate/
+    - assets/images/projects/
+    - assets/images/korea/
+    - assets/images/japan/
+    - assets/images/interns/
+    - assets/images/papers/
+    - assets/images/perspectives/
+    - assets/images/eventreports/
+    - assets/images/indopacific/
+    - assets/images/northeast/
+    - assets/images/southeast/
+    - assets/images/pillars/
+    - assets/images/publications/
+    - assets/images/activities/
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/ceas_logo.png"
+  min_sdk_android: 21
